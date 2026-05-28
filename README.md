@@ -27,13 +27,13 @@ Os quatro dashboards podem ser visualizados diretamente no navegador:
 
 | Arquivo ou diretório | Descrição |
 |---|---|
-| `01_etl_e_star_schema.ipynb` | ETL, engenharia de features e construção do Star Schema |
-| `02_dashboards_bi.ipynb` | Geração dos quatro dashboards interativos em Plotly |
-| `03_modelo_preditivo.ipynb` | Treinamento e avaliação dos modelos preditivos |
-| `dashboards/` | Arquivos HTML standalone dos dashboards (links renderizados na seção acima) |
-| `data/` | Data Warehouse SQLite e CSVs originais do dataset Olist |
-| `olist_dw.sqlite` | Data Warehouse em Star Schema (1 tabela fato, 5 dimensões) |
-| `modelo_random_forest.pkl` | Modelo Random Forest serializado para inferência |
+| [`01_etl_e_star_schema.ipynb`](https://github.com/rafaehlers/projetobi-olist-fase2/blob/main/01_etl_e_star_schema.ipynb) | ETL, engenharia de features e construção do Star Schema |
+| [`02_dashboards_bi.ipynb`](https://github.com/rafaehlers/projetobi-olist-fase2/blob/main/02_dashboards_bi.ipynb) | Geração dos quatro dashboards interativos em Plotly |
+| [`03_modelo_preditivo.ipynb`](https://github.com/rafaehlers/projetobi-olist-fase2/blob/main/03_modelo_preditivo.ipynb) | Treinamento e avaliação dos modelos preditivos |
+| [`dashboards/`](https://github.com/rafaehlers/projetobi-olist-fase2/tree/main/dashboards) | Arquivos HTML standalone dos dashboards (links renderizados na seção acima) |
+| [`data/`](https://github.com/rafaehlers/projetobi-olist-fase2/tree/main/data) | Data Warehouse SQLite e CSVs originais do dataset Olist |
+| [`olist_dw.sqlite`](https://github.com/rafaehlers/projetobi-olist-fase2/blob/main/olist_dw.sqlite) | Data Warehouse em Star Schema (1 tabela fato, 5 dimensões) |
+| [`modelo_random_forest.pkl`](https://github.com/rafaehlers/projetobi-olist-fase2/blob/main/modelo_random_forest.pkl) | Modelo Random Forest serializado para inferência |
 
 ## Stack técnico
 
