@@ -25,22 +25,6 @@ Quais fatores operacionais, logísticos e financeiros possuem maior peso estatí
 | `modelo_random_forest.pkl` | Modelo Random Forest serializado para inferência |
 | `docs/` | Relatório da Fase 2 (PDF), apresentação executiva (PDF) e diagrama de arquitetura (SVG) |
 
-## Como reproduzir
-
-1. Clone o repositório:
-```bash
-   git clone https://github.com/rafaehlers/projetobi-olist-fase2.git
-   cd projetobi-olist-fase2
-```
-
-2. Execute os notebooks em sequência. Eles foram desenvolvidos no Google Colab e rodam sem instalação adicional nesse ambiente (todas as bibliotecas usadas estão pré-instaladas: pandas, numpy, sqlalchemy, plotly, scikit-learn, matplotlib, seaborn).
-
-   - `01_etl_e_star_schema.ipynb` gera o arquivo `olist_dw.sqlite`
-   - `02_dashboards_bi.ipynb` gera os HTMLs na pasta `dashboards/`
-   - `03_modelo_preditivo.ipynb` treina os modelos e serializa o Random Forest em `modelo_random_forest.pkl`
-
-   Para execução local, é necessário Python 3.10+ com Jupyter e as bibliotecas acima.
-
 ## Stack técnico
 
 - **ETL e manipulação tabular:** Pandas, NumPy
