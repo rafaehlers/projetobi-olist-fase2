@@ -2,6 +2,8 @@
 
 Solução integrada de Business Intelligence e Machine Learning para predição de avaliações negativas no ecossistema Olist, desenvolvida como entrega da Fase 2 da disciplina Projeto em Business Intelligence e Analytics (PUCRS Online, 2026).
 
+📂 **Código-fonte:** [github.com/rafaehlers/projetobi-olist-fase2](https://github.com/rafaehlers/projetobi-olist-fase2)
+
 ## Pergunta de pesquisa
 
 Quais fatores operacionais, logísticos e financeiros possuem maior peso estatístico na determinação de uma avaliação negativa no e-commerce brasileiro?
