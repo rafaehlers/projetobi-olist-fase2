@@ -23,7 +23,7 @@ Quais fatores operacionais, logísticos e financeiros possuem maior peso estatí
 | `data/` | Data Warehouse SQLite e CSVs originais do dataset Olist |
 | `olist_dw.sqlite` | Data Warehouse em Star Schema (1 tabela fato, 5 dimensões) |
 | `modelo_random_forest.pkl` | Modelo Random Forest serializado para inferência |
-| `docs/` | Relatório da Fase 2 (PDF), apresentação executiva (PDF) e diagrama de arquitetura (SVG) |
+
 
 ## Stack técnico
 
