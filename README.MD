@@ -12,6 +12,15 @@ Quais fatores operacionais, logísticos e financeiros possuem maior peso estatí
 2. **Razão frete/preço é o segundo driver de insatisfação**, especificamente em produtos de baixo ticket (razão média de 0,57 em ticket baixo contra 0,11 em ticket alto). Hipótese 2 confirmada.
 3. **Pedidos multi-vendedor têm taxa de avaliação negativa 3x maior** (60,5% vs 20,5%), mas o canal causal originalmente proposto (multi-vendor leva a consolidação mais lenta) foi refutado pelos dados, já que pedidos multi-vendedor consolidam mais rápido (1,38 vs 2,30 dias). Hipótese 3 parcialmente confirmada, com o mecanismo real em aberto.
 
+## Dashboards interativos
+
+Os quatro dashboards podem ser visualizados diretamente no navegador:
+
+- [Dashboard 0: Visão Executiva](https://rafaehlers.github.io/projetobi-olist-fase2/dashboards/dashboard_0_visao_executiva.html) (KPIs gerais, evolução temporal, distribuição de notas)
+- [Dashboard 1: Hipótese 1, Atrasos e Satisfação](https://rafaehlers.github.io/projetobi-olist-fase2/dashboards/dashboard_1_hipotese_1.html)
+- [Dashboard 2: Hipótese 2, Frete vs Preço em Baixo Ticket](https://rafaehlers.github.io/projetobi-olist-fase2/dashboards/dashboard_2_hipotese_2.html)
+- [Dashboard 3: Hipótese 3, Pedidos Multi-Vendedor](https://rafaehlers.github.io/projetobi-olist-fase2/dashboards/dashboard_3_hipotese_3.html)
+
 ## Estrutura do repositório
 
 | Arquivo ou diretório | Descrição |
@@ -19,11 +28,10 @@ Quais fatores operacionais, logísticos e financeiros possuem maior peso estatí
 | `01_etl_e_star_schema.ipynb` | ETL, engenharia de features e construção do Star Schema |
 | `02_dashboards_bi.ipynb` | Geração dos quatro dashboards interativos em Plotly |
 | `03_modelo_preditivo.ipynb` | Treinamento e avaliação dos modelos preditivos |
-| `dashboards/` | Quatro dashboards exportados em HTML standalone |
+| `dashboards/` | Arquivos HTML standalone dos dashboards (links renderizados na seção acima) |
 | `data/` | Data Warehouse SQLite e CSVs originais do dataset Olist |
 | `olist_dw.sqlite` | Data Warehouse em Star Schema (1 tabela fato, 5 dimensões) |
 | `modelo_random_forest.pkl` | Modelo Random Forest serializado para inferência |
-
 
 ## Stack técnico
 
